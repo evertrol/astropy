@@ -307,6 +307,9 @@ Bug fixes
   - Ensure that ``angle_utilities.position_angle`` accepts floats, as stated
     in the docstring. [#3800]
 
+  - Ensure that ``search_around_sky`` and ``search_around_3d`` return
+    integer type index arrays for empty (non) matches. [#4877]
+
 - ``astropy.cosmology``
 
 - ``astropy.io.ascii``
